@@ -28,4 +28,8 @@ https://diogo-lourencco.github.io/site_vertex/
 
 Diogo Lourenço
 
+<<<<<<< HEAD
 https://github.com/diogo-lourencco
+=======
+https://github.com/diogo-lourencco
+>>>>>>> 0953f1f (Atualização)
