@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vertex | Landing Pages</title>
+
+  <!-- IMPORTAÇÃO DAS FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/vertexlogo.png">
+  <!-- ÍCONES -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- ARQUIVO DE ESTILOS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- EFEITOS DE BRILHO NO FUNDO -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <!-- CABEÇALHO -->
+  <header class="header">
+
+    <div class="container nav">
+
+      <!-- ÁREA DO LOGO -->
+      <div class="logo">
+        <img src="assets/img/logo_vertex_full (1).png" alt="Vertex" width="200px">
+
+        <div class="logo-text">
+          <h2></h2>
+          <span>PERFORMANCE QUE IMPORTA</span>
+        </div>
+      </div>
+
+      <!-- MENU DE NAVEGAÇÃO -->
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Processo</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <!-- BOTÃO DO HEADER (WHATSAPP) -->
+      <button class="btn-primary"
+        onclick="window.open('https://wa.me/5511976215295?text=Ol%C3%A1%21%20Quero%20criar%20minha%20landing%20page.','_blank')">
+        Quero a minha!
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- SEÇÃO HERO (TOPO) -->
+  <section class="hero" id="inicio">
+
+    <div class="container hero-content fade-up">
+
+      <!-- COLUNA ESQUERDA -->
+      <div class="hero-left">
+
+        <!-- TAG DE DESTAQUE -->
+        <span class="tag">
+          ✨ LANDING PAGES DE ALTA CONVERSÃO
+        </span>
+
+        <!-- TÍTULO PRINCIPAL -->
+        <h1>
+          IMPULSIONE <br>
+          SUA <span>MARCA</span> <br>
+          <span>AGORA!</span>
+        </h1>
+
+        <!-- TEXTO DESCRITIVO -->
+        <p>
+          Criamos páginas chamativas, rápidas e otimizadas
+          para transformar visitantes em
+          <strong>clientes pagantes.</strong>
+        </p>
+
+        <!-- BOTÕES DO HERO -->
+        <div class="hero-buttons">
+
+          <!-- BOTÃO WHATSAPP -->
+          <button class="btn-primary"
+            onclick="window.open('https://wa.me/5511976215295?text=Ol%C3%A1%21%20Quero%20criar%20minha%20landing%20page.','_blank')">
+            Quero minha landing →
+          </button>
+
+          <!-- BOTÃO QUE DESCE ATÉ OS SERVIÇOS -->
+          <button class="btn-secondary"
+            onclick="document.querySelector('#servicos').scrollIntoView({behavior:'smooth'})">
+            Ver tipos de página
+          </button>
+
+        </div>
+
+        <!-- ESTATÍSTICAS -->
+        <div class="stats">
+          <div>⭐ 4.9/5 dos clientes</div>
+          <div>🏆 +120 páginas entregues</div>
+          <div>⏰ Pronta em até 7 dias</div>
+        </div>
+
+      </div>
+
+      <!-- COLUNA DIREITA (MOCKUP) -->
+      <div class="hero-right">
+
+        <div class="mockup">
+
+          <!-- CABEÇALHO DO MOCKUP -->
+          <div class="mockup-header">
+            <span></span><span></span><span></span>
+          </div>
+
+          <!-- CONTEÚDO DO MOCKUP -->
+          <div class="mockup-content">
+
+            <div class="badge">✨ OFERTA</div>
+
+            <div class="line big"></div>
+            <div class="line gold"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line small"></div>
+
+            <button class="mock-btn"></button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SEÇÃO DE BENEFÍCIOS -->
+  <section class="benefits" id="servicos">
+
+    <div class="container cards">
+
+      <!-- CARD 1 -->
+      <div class="card fade-up">
+        <div class="icon"><i data-lucide="sparkles"></i></div>
+        <h3>Alta Conversão</h3>
+        <p>Copy, design e CTA pensados para transformar visita em venda.</p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card fade-up">
+        <div class="icon"><i data-lucide="zap"></i></div>
+        <h3>Pronto em dias</h3>
+        <p>Sua página no ar rápido, sem promessa furada.</p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card fade-up">
+        <div class="icon"><i data-lucide="target"></i></div>
+        <h3>Foco no cliente</h3>
+        <p>Cada bloco guia o visitante até o botão de compra.</p>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="card fade-up">
+        <div class="icon"><i data-lucide="trending-up"></i></div>
+        <h3>Otimizada pra ads</h3>
+        <p>Perfeita pra Google, Meta e tráfego pago.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SEÇÃO PROCESSO -->
+  <section class="process" id="processo">
+
+    <div class="container">
+
+      <!-- TAG DA SEÇÃO -->
+      <span class="section-tag">COMO FUNCIONA</span>
+
+      <!-- TÍTULO -->
+      <h2>
+        DO BRIEFING AO <br>
+        <span>PRIMEIRO CLIENTE</span>
+      </h2>
+
+      <!-- GRADE DE ETAPAS -->
+      <div class="process-grid">
+
+        <!-- ETAPA 01 -->
+        <div class="process-card">
+          <span>01</span>
+          <h3>Briefing</h3>
+          <p>Entendemos seu produto, público e oferta.</p>
+        </div>
+
+        <!-- ETAPA 02 -->
+        <div class="process-card">
+          <span>02</span>
+          <h3>Design</h3>
+          <p>Layout chamativo, copy persuasiva e foco em conversão.</p>
+        </div>
+
+        <!-- ETAPA 03 -->
+        <div class="process-card">
+          <span>03</span>
+          <h3>Publicação</h3>
+          <p>Sua página no ar rápida e pronta pra rodar tráfego.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SEÇÃO VANTAGENS -->
+  <section class="features">
+
+    <div class="container feature-box">
+
+      <h2>VANTAGENS</h2>
+
+      <!-- LISTAS DE VANTAGENS -->
+      <div class="feature-grid">
+
+        <ul>
+          <li>✔ Design exclusivo da sua marca</li>
+          <li>✔ Integração com WhatsApp e formulário</li>
+          <li>✔ Domínio e hospedagem configurados</li>
+        </ul>
+
+        <ul>
+          <li>✔ Copy persuasiva pronta</li>
+          <li>✔ Preço acessível</li>
+          <li>✔ Versão mobile impecável</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SEÇÃO CTA (CHAMADA PARA AÇÃO) -->
+  <section class="cta" id="contato">
+
+    <div class="container cta-box">
+
+      <!-- ÍCONE -->
+      <div class="cta-icon">💬</div>
+
+      <!-- TÍTULO -->
+      <h2>
+        BORA TIRAR SUA <br>
+        <span>LANDING DO PAPEL?</span>
+      </h2>
+
+      <!-- TEXTO -->
+      <p>
+        Me conte sua ideia no WhatsApp.
+        Em até 2h te mando um plano com prazo e investimento.
+      </p>
+
+      <!-- BOTÕES DO CTA -->
+      <div class="cta-buttons">
+
+        <!-- BOTÃO WHATSAPP -->
+        <button class="btn-primary"
+          onclick="window.open('https://wa.me/5511976215295?text=Ol%C3%A1%21%20Quero%20criar%20minha%20landing%20page.','_blank')">
+          Falar no WhatsApp →
+        </button>
+
+        <!-- BOTÃO DE EMAIL -->
+        <button class="btn-secondary" onclick="window.location.href='mailto:seuemail@exemplo.com'">
+          Enviar e-mail
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <!-- LOGO DO RODAPÉ -->
+      <div class="logo">
+        <img src="assets/img/logo_vertex_full (1).png" alt="Vertex" width="200px">
+        <div class="logo-text">
+          <span>PERFORMANCE QUE IMPORTA</span>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <p>© 2026 Vertex. Todos os direitos reservados.</p>
+
+    </div>
+
+  </footer>
+
+  <!-- SCRIPT JAVASCRIPT -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
